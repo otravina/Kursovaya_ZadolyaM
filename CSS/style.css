@@ -123,13 +123,11 @@ body {
   margin-right: 18px;
 }
 .explore__button {
-  display: block;
   background-color: #589195;
   border-radius: 38px;
   width: 170px;
   height: 50px;
   color: #ffffff;
-  height: 50px;
   text-decoration: none;
   text-transform: capitalize;
   display: flex;
@@ -143,7 +141,11 @@ body {
   line-height: 60px;
   white-space: nowrap;
 }
-
+.explore__button:hover {
+  background-color: #ffffff;
+  color: #589195;
+  transition-duration: 0.3s;
+}
 .header__icons {
   display: flex;
   justify-content: space-between;
@@ -157,6 +159,8 @@ body {
 }
 
 .header {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   list-style-type: none;
   font-family: "W-Sans-Reg";
   scroll-margin-top: 1em;
