@@ -1322,6 +1322,40 @@ body {
 .header__burger {
   display: none;
 }
+@media screen and (max-width: 1144px) {
+  .header__burger {
+    display: block;
+    width: 20px;
+    height: 16px;
+    margin-left: 85px;
+    margin-top: 10px;
+  }
+  .header__list {
+    display: none;
+  }
+  .header {
+    width: 1136px;
+    display: flex;
+    border-bottom: 0.8px solid #84babe;
+    margin-left: 100px;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family: "W-Sans-Reg";
+    position: relative;
+    width: 30%;
+    margin: 10px 0px 0px 0px;
+  }
+  .header__logo {
+    margin-right: 33px;
+    margin-top: 14px;
+  }
+  .header__overlay {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 370px) {
   .main {
