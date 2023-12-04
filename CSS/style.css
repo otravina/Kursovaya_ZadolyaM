@@ -1653,8 +1653,4 @@ body {
     width: auto;
   }
 }
-@media screen and (min-width: 1440px) {
-  .header__line {
-    width: 1515px;
-  }
-}
+
