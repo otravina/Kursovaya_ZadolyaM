@@ -217,10 +217,7 @@ body {
   margin-left: 413px;
 }
 
-.advantages__pr-1,
-.advantages__pr-2,
-.advantages__pr-3,
-.advantages__pr-4 {
+.advantages__pr-3 {
   align-items: flex-end;
   width: 200px;
 }
