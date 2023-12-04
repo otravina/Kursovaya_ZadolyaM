@@ -300,15 +300,13 @@ body {
   justify-content: space-between;
 }
 .arrival__card {
-  width: 260px;
   height: 492px;
   margin-top: 2px;
 }
 .arrival__card-block {
-  display: flex;
   flex-wrap: wrap;
   background-color: #f7f8fc;
-  width: 255px;
+  width: 239px;
   height: 330px;
   display: flex;
   align-items: center;
@@ -560,6 +558,11 @@ body {
   font-size: 18px;
   line-height: 60px;
   white-space: nowrap;
+}
+.sale__right-button:hover {
+  background-color: #ffffff;
+  color: #589195;
+  transition-duration: 0.3s;
 }
 .sale__right-ends {
   font-family: "Outf-Reg";
@@ -1360,7 +1363,7 @@ body {
 
 @media screen and (max-width: 370px) {
   .main {
-    width: 950px;
+    width: 320px;
     display: flex;
     padding: 0 30px 0 30px;
     justify-content: center;
@@ -1372,6 +1375,19 @@ body {
   .featured__cards-row2 {
     justify-content: space-around;
   }
+  .arrival__card-size {
+    margin-left: 90px;
+  }
+  .advantages__pr-1,
+  .advantages__pr-2,
+  .advantages__pr-3,
+  .advantages__pr-4 {
+    width: auto;
+  }
+  .arrival__card {
+    width: auto;
+  }
+
   .header__line {
     display: none;
   }
@@ -1489,6 +1505,7 @@ body {
     flex-wrap: wrap;
     width: 60%;
   }
+
   .reviews__bottom {
     display: none;
   }
@@ -1512,6 +1529,7 @@ body {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    width: 670px;
   }
   .featured__list {
     display: flex;
@@ -1521,6 +1539,9 @@ body {
     justify-content: space-between;
     font-family: "W-Sans-Reg";
     padding-bottom: 8px;
+  }
+  .featured__text-down {
+    width: auto;
   }
   .shopnow {
     display: flex;
@@ -1630,5 +1651,10 @@ body {
   }
   .footer__bottom-copyright {
     width: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header__line {
+    width: 1515px;
   }
 }
