@@ -39,9 +39,10 @@
   src: url(../FONTS/OpenSans-Regular.ttf);
 }
 body {
-  width: 1440px;
   background-image: url(../IMG/background.png);
   font-family: "W-Sans-Reg", "Outf-Light";
+  min-width: 100vw;
+  height: auto;
 }
 .main__widthcontrol-1 {
   width: 1110.47px;
@@ -56,11 +57,12 @@ body {
 .header__line {
   background-color: #84babe;
   height: 0.8px;
-  width: 1440px;
+  width: auto;
 }
 .main {
   background-color: #deecec;
   font-family: "W-Sans-Reg", "Outf-Light";
+  width: 100vw;
   height: auto;
 }
 .explore {
@@ -91,7 +93,6 @@ body {
   font-size: 18px;
   margin-top: 15px;
   margin-left: 2px;
-  width: 534px;
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 0;
@@ -508,14 +509,12 @@ body {
   color: #3a415c;
   font-family: "Outf-Med";
   font-size: 50px;
-  width: 533px;
   font-weight: 500;
 }
 .sale__text-down {
   color: #707686;
   font-family: "W-Sans-Light";
   font-size: 18px;
-  width: 519px;
   line-height: 28px;
   letter-spacing: 0;
   margin-top: 13px;
@@ -1075,7 +1074,6 @@ body {
   margin-bottom: 5px;
 }
 .reviews__card {
-  width: 350px;
   height: 396px;
   background-color: #ffffff;
   padding: 57px 32px 27px 32px;
@@ -1116,7 +1114,6 @@ body {
   margin-top: 10px;
 }
 .reviews__card-name {
-  width: 169px;
   height: 16px;
   font-family: "Outf-reg";
   font-weight: 400;
@@ -1159,7 +1156,6 @@ body {
   margin-top: 128px;
 }
 .footer__info-subt {
-  width: 350px;
   height: 56px;
   font-family: "W-Sans-Light";
   font-weight: 300;
@@ -1200,7 +1196,6 @@ body {
   width: 94px;
 }
 .footer__adr {
-  width: 184px;
   height: 153px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -1253,7 +1248,6 @@ body {
 }
 
 .footer__categs {
-  width: 188px;
   height: 149px;
   margin-right: 10px;
   margin-bottom: 13px;
@@ -1341,7 +1335,6 @@ body {
     width: 1136px;
     display: flex;
     border-bottom: 0.8px solid #84babe;
-    margin-left: 100px;
   }
   .header__nav {
     display: flex;
@@ -1350,7 +1343,7 @@ body {
     font-family: "W-Sans-Reg";
     position: relative;
     width: 30%;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 164px;
   }
   .header__logo {
     margin-right: 33px;
@@ -1359,32 +1352,41 @@ body {
   .header__overlay {
     display: none;
   }
+  .header__line {
+    background-color: #84babe;
+    height: 0.8px;
+    width: auto;
+  }
 }
-
 @media screen and (max-width: 370px) {
   .main {
-    width: 320px;
     display: flex;
-    padding: 0 30px 0 30px;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  body {
+    padding-left: 300px;
     background-image: url(../IMG/mob-background.png);
   }
+
   .featured__cards-row2 {
     justify-content: space-around;
   }
   .arrival__card-size {
     margin-left: 90px;
   }
+  .arrival__card {
+    width: 50%;
+  }
+  .arrival__card-block {
+    width: 90%;
+  }
+  .arrival__card-name,
+  .arrival__card-bottominfo {
+    font-size: 20px;
+  }
   .advantages__pr-1,
   .advantages__pr-2,
   .advantages__pr-3,
   .advantages__pr-4 {
-    width: auto;
-  }
-  .arrival__card {
     width: auto;
   }
 
@@ -1436,24 +1438,20 @@ body {
   }
   .advantages {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: -83px;
+    justify-content: center;
   }
 
   .main__widthcontrol-1 {
-    width: 66%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 0px;
+    width: auto;
   }
   .main__widthcontrol-2 {
-    width: 66%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 3600px;
+    margin: 0px;
+    width: 100vw;
   }
   .arrival {
     width: 100%;
@@ -1478,17 +1476,42 @@ body {
     width: 1135px;
     margin-left: 0px;
   }
+  .sale__right-text {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .sale__right-price {
+    display: flex;
+    margin-top: 0px;
+  }
   .sale__right {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
     margin: 23px 0 0 0;
+  }
+  .sale__womanjeans {
+    width: 70%;
+    height: auto;
+  }
+  .sale__right-ends {
+    margin-top: 59px;
+    padding-right: 306px;
   }
   .explore__uppersubtitle {
     margin-top: 62px;
   }
   .explore__man {
     margin-top: -33px;
+    width: 80%;
+    height: 70%;
   }
   .explore__dots3 {
     margin-bottom: 112px;
+  }
+  .explore__rightsidemain {
+    align-items: flex-end;
   }
   .featured__text-up {
     margin-top: 118px;
@@ -1498,12 +1521,13 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     height: auto;
+    width: 60vw;
   }
   .featured__cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 60%;
+    width: 167vw;
   }
 
   .reviews__bottom {
@@ -1517,11 +1541,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 40%;
+    width: 80%;
   }
   .featured__text-up {
     width: auto;
     padding-right: 10px;
+    padding-left: 84px;
   }
   .featured__text {
     display: flex;
@@ -1529,7 +1554,7 @@ body {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-    width: 670px;
+    width: auto;
   }
   .featured__list {
     display: flex;
@@ -1548,9 +1573,36 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    width: 100%;
   }
   .shopnow__men {
     margin: 0px;
+    width: 355px;
+    height: 213px;
+    margin-top: 51px;
+  }
+  .shopnow__women {
+    display: flex;
+    background-color: #e9e6f0;
+    width: 361px;
+    height: 213px;
+    margin-top: 51px;
+  }
+
+  .shopnow__text-2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .shopnow__text-3 {
+    font-size: px;
+  }
+  .shopnow__men-img {
+    width: 56%;
+    height: 80%;
+  }
+  .shopnow__women-img {
+    width: 56%;
+    height: 80%;
   }
   .shopbycat {
     display: flex;
@@ -1561,12 +1613,16 @@ body {
   }
   .shopbycat__menu {
     display: flex;
-    height: 600px;
+    height: auto;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   .shopbycat__text-title {
-    margin-top: 0px;
+    margin-top: 50px;
+  }
+  .shopbycat__menu-img {
+    width: 60%;
+    height: 40%;
   }
   .reviews {
     margin-top: 45px;
@@ -1585,6 +1641,7 @@ body {
   }
   .reviews__card {
     margin: 0px;
+    width: auto;
   }
   .brands {
     height: 210px;
@@ -1653,4 +1710,3 @@ body {
     width: auto;
   }
 }
-
