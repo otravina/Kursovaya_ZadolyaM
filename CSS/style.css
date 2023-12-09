@@ -1358,7 +1358,7 @@ body {
     width: auto;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 480px) {
   .main {
     display: flex;
     justify-content: center;
@@ -1617,20 +1617,36 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .shopbycat__menu-point {
+    height: auto;
+    width: 50%;
+    margin-bottom: 35px;
+  }
+  .shopbycat__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .shopbycat__text-title {
     margin-top: 50px;
+    text-align: center;
+  }
+  .shopbycat__text-subtitle {
+    width: 70%;
+    text-align: center;
   }
   .shopbycat__menu-img {
     width: 60%;
     height: 40%;
   }
   .reviews {
-    margin-top: 45px;
+    margin-top: -8px;
     display: flex;
-    width: 60%;
-    justify-content: space-between;
+    width: 85%;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 32%;
+    height: 26%;
   }
   .reviews__top {
     display: flex;
@@ -1640,16 +1656,36 @@ body {
     flex-direction: column;
   }
   .reviews__card {
-    margin: 0px;
+    margin: 10px;
     width: auto;
+  }
+  .reviews__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviews__text-title {
+    width: 311px;
+    font-family: "Outf-Reg";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #34394c;
+    text-align: center;
+  }
+  .reviews__text-subtitle {
+    width: auto;
+    height: auto;
+    text-align: center;
   }
   .brands {
     height: 210px;
     width: 80%;
     display: flex;
     justify-content: center;
-    margin-bottom: 102px;
-    margin-top: -13px;
+    margin-bottom: 109px;
+    margin-top: 110px;
     margin-left: 4px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1667,7 +1703,7 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     flex-direction: column;
-    margin-top: -140px;
+    margin-top: -93px;
     width: 70%;
     height: auto;
   }
