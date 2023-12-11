@@ -1141,8 +1141,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 195px;
-  margin-left: 137px;
+  margin-top: 150px;
+  margin-left: 104px;
 }
 .brands__img {
   margin-right: -13px;
@@ -1331,10 +1331,18 @@ body {
   .header__list {
     display: none;
   }
+  .explore__man {
+    width: 80%;
+    height: 65%;
+    margin-right: 184px;
+  }
   .header {
     width: 1136px;
     display: flex;
     border-bottom: 0.8px solid #84babe;
+  }
+  .header__icons {
+    display: none;
   }
   .header__nav {
     display: flex;
@@ -1342,8 +1350,15 @@ body {
     height: 100px;
     font-family: "W-Sans-Reg";
     position: relative;
-    width: 30%;
+    width: 85%;
     margin: 10px 0px 0px 164px;
+  }
+  .explore__dots3 {
+    margin-right: 168px;
+  }
+  .brands {
+    margin-top: 142px;
+    margin-left: 100px;
   }
   .header__logo {
     margin-right: 33px;
@@ -1397,16 +1412,20 @@ body {
     display: block;
     width: 20px;
     height: 16px;
-    margin-left: 85px;
+    margin-left: 70vw;
     margin-top: 10px;
   }
   .header__list {
-    display: none;
+    display: hidden;
   }
+
   .header {
-    width: 550px;
+    width: auto;
     display: flex;
     border-bottom: 0.8px solid #84babe;
+  }
+  .header__icons {
+    display: none;
   }
   .explore__man {
     width: auto;
@@ -1685,8 +1704,8 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 109px;
-    margin-top: 110px;
-    margin-left: 4px;
+    margin-top: 152px;
+    margin-left: 100px;
     flex-direction: row;
     flex-wrap: wrap;
   }
