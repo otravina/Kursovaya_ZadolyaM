@@ -98,6 +98,7 @@ a {
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 0;
+  width: 100%;
 }
 
 .explore__container {
@@ -136,7 +137,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 26px;
   font-family: "Outf-Reg";
   font-size: 18px;
   font-weight: 400;
@@ -301,6 +302,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 .arrival__card {
   height: 492px;
@@ -512,6 +514,7 @@ a {
   font-family: "Outf-Med";
   font-size: 50px;
   font-weight: 500;
+  width: 110%;
 }
 .sale__text-down {
   color: #707686;
@@ -954,6 +957,7 @@ a {
   align-self: flex-end;
   height: 285px;
   width: 303px;
+  margin-top: 42px;
 }
 .shopnow__men {
   display: flex;
@@ -968,6 +972,7 @@ a {
   height: 278px;
   width: 197px;
   margin-left: 51px;
+  margin-top: 46px;
 }
 
 .shopbycat {
@@ -1143,8 +1148,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 150px;
-  margin-left: 104px;
+  margin-top: 196px;
+  margin-left: 137px;
 }
 .brands__img {
   margin-right: -13px;
@@ -1157,7 +1162,7 @@ a {
   padding-right: 10px;
   margin-top: 128px;
 }
-.footer__info-subt {
+.footer__info .footer__info-subt {
   height: 56px;
   font-family: "W-Sans-Light";
   font-weight: 300;
@@ -1165,6 +1170,7 @@ a {
   line-height: 28px;
   color: #707686;
   margin-top: 11px;
+  width: 89%;
 }
 .footer__info-form {
   padding: 6px 6px 0px 14px;
@@ -1213,6 +1219,15 @@ a {
   font-size: 14px;
   line-height: 24px;
   width: 160px;
+}
+.footer__info {
+  width: 400px;
+}
+.footer__info-svg {
+  width: 60px;
+}
+.footer__info-subt {
+  width: 100%;
 }
 .footer__adr-location a {
   margin-left: -16px;
@@ -1526,7 +1541,8 @@ a {
   .explore__man {
     margin-top: -33px;
     width: 80%;
-    height: 70%;
+    height: 65%;
+    margin-right: 0px;
   }
   .explore__dots3 {
     margin-bottom: 112px;
@@ -1658,8 +1674,8 @@ a {
     text-align: center;
   }
   .shopbycat__menu-img {
-    width: 60%;
-    height: 40%;
+    width: 100%;
+    height: 70%;
   }
   .reviews {
     margin-top: -8px;
@@ -1706,15 +1722,14 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 109px;
-    margin-top: 152px;
-    margin-left: 100px;
+    margin-top: 124px;
+    margin-left: 0px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .brands__img {
-    margin-right: -13px;
-    margin-top: 10px;
-    margin-right: 22px;
+    width: 70%;
+    height: auto;
   }
   .footer {
     display: flex;
@@ -1736,11 +1751,7 @@ a {
     flex-direction: row;
     width: 100%;
   }
-  .footer__info {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
+
   .footer__bottom {
     width: 100%;
   }
