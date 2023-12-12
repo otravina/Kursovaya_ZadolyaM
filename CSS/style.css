@@ -44,6 +44,9 @@ body {
   min-width: 100vw;
   height: auto;
 }
+a {
+  color: unset;
+}
 .main__widthcontrol-1 {
   width: 1110.47px;
   margin-left: 164px;
@@ -57,7 +60,6 @@ body {
 .header__line {
   background-color: #84babe;
   height: 0.8px;
-  width: auto;
 }
 .main {
   background-color: #deecec;
@@ -215,7 +217,7 @@ body {
   height: 2px;
   width: 59px;
   margin-right: 968px;
-  margin-left: 413px;
+  margin-left: 28.5vw;
 }
 
 .advantages__pr-3 {

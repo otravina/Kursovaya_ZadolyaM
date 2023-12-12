@@ -56,7 +56,6 @@ main {
   border-radius: 38px;
   width: 170px;
   height: 50px;
-  color: #ffffff;
   text-decoration: none;
   text-transform: capitalize;
   display: flex;
@@ -69,6 +68,9 @@ main {
   letter-spacing: 0;
   line-height: 60px;
   white-space: nowrap;
+}
+.main__button a {
+  color: white;
 }
 .main__button:hover {
   background-color: #ffffff;
