@@ -1,53 +1,78 @@
 @font-face {
-    font-family: "Outf-Reg";
-    src: url(../FONTS/Outfit-Regular.ttf);
-  }
-  @font-face {
-    font-family: "Outf-Med";
-    src: url(../FONTS/Outfit-Medium.ttf);
-  }
-  @font-face {
-    font-family: "W-Sans-Light";
-    src: url(../FONTS/WorkSans-Light.ttf);
-  }
-  body{
-    display: flex;
-    width: 1440px;
-    height: 960px;
-    background-color: #ffff;
-    font-family: "W-Sans-Reg", "Outf-Light";
-    justify-content: center;
-    align-items: center;
-  }
-  main{
-    width: 1066px;
-    flex-wrap: nowrap;
-    height: 303px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 119px;
-  }
-  .main__title{
-    color: #3A415C;
-    font-family: "Outf-Med";
-    font-size: 150px;
-    line-height: 106px;
-  }
-  .main__subtitle{
-    color: #589195;
-    font-family: "Outf-Reg";
-    font-size: 66px; 
-    line-height: 60px;
-    margin-top: 32px;
-    margin-left: -2px;
-  }
-  .main__info{
-    color: #707686;
-    font-family: "W-Sans-Light";
-    font-size: 39px;  
-    line-height: 106px;
-    margin-top: -6px;
-    margin-right: 6px;
-  }
+  font-family: "Outf-Reg";
+  src: url(../FONTS/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: "Outf-Med";
+  src: url(../FONTS/Outfit-Medium.ttf);
+}
+@font-face {
+  font-family: "W-Sans-Light";
+  src: url(../FONTS/WorkSans-Light.ttf);
+}
+body {
+  display: flex;
+  width: 1440px;
+  height: 960px;
+  background-color: #ffff;
+  font-family: "W-Sans-Reg", "Outf-Light";
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 1066px;
+  flex-wrap: nowrap;
+  height: 303px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 119px;
+}
+.main__title {
+  color: #3a415c;
+  font-family: "Outf-Med";
+  font-size: 150px;
+  line-height: 106px;
+}
+.main__subtitle {
+  color: #589195;
+  font-family: "Outf-Reg";
+  font-size: 66px;
+  line-height: 60px;
+  margin-top: 32px;
+  margin-left: -2px;
+}
+.main__info {
+  color: #707686;
+  font-family: "W-Sans-Light";
+  font-size: 39px;
+  line-height: 106px;
+  margin-top: -6px;
+  margin-right: 6px;
+}
+.main__button {
+  background-color: #589195;
+  border-radius: 38px;
+  width: 170px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-family: "Outf-Reg";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+.main__button:hover {
+  background-color: #ffffff;
+  color: #589195;
+  transition-duration: 0.3s;
+  box-shadow: rgb(0, 119, 130) 1px 0 10px;
+}
