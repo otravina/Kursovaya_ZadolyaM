@@ -196,6 +196,7 @@ a {
 .header__list-li:not(:last-child) {
   margin: 0 43px 0 0;
 }
+
 .header__list-li a {
   font-weight: 500;
   color: #6a7087;
